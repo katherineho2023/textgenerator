@@ -1,0 +1,7 @@
+yoname = input('Instructor Name:\n')
+name = input('Student Name:\n')
+pageno = input('Page Number:\n')
+topics = input('Topics:\n')
+gender = (input('Subjective Pronouns (She/He):\n'))
+text = f"Hello! This is {yoname} from Mathansium! I had a great session with {name} today! {gender} completed {pageno} pages on {topics}! {gender} was very focused, and is showing a clear understanding of all of the topics that we worked on today!"
+print(text)
